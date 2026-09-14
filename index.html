@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="吴梓鸣｜数字媒体艺术与AIGC影像个人作品集" />
+  <title>吴梓鸣 / 数字媒体艺术作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <header class="nav">
+    <a class="brand magnetic" href="#home" aria-label="返回首页">WZM<span>®</span></a>
+    <nav>
+      <a href="#work">作品</a>
+      <a href="#about">关于</a>
+      <a href="output/pdf/wu-ziming-resume.pdf" target="_blank" rel="noopener">简历 ↗</a>
+      <a href="#contact">联系</a>
+    </nav>
+    <div class="nav-meta">ZAOZHUANG · 2026</div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <canvas id="particle-canvas"></canvas>
+      <div class="orbit orbit-a"></div>
+      <div class="orbit orbit-b"></div>
+
+      <div class="hero-kicker reveal">WU ZIMING · DIGITAL MEDIA ARTIST</div>
+      <div class="hero-copy">
+        <h1 aria-label="澈见，未定">
+          <span class="line reveal"><i>澈见</i><em>SEE THROUGH</em></span>
+          <span class="line outline reveal"><i>未定</i><em>STAY UNDEFINED</em></span>
+        </h1>
+        <p class="hero-intro reveal">在日常中观察，<br>用影像与画笔记录一些感受。</p>
+      </div>
+
+      <div class="hero-bottom reveal">
+        <div class="scroll-cue"><span></span>SCROLL TO EXPLORE</div>
+        <div class="coordinates">WU ZIMING / 吴梓鸣<br>DIGITAL MEDIA ART · 23</div>
+      </div>
+    </section>
+
+    <section class="manifesto section-pad" id="about">
+      <div class="section-index">01 / ABOUT</div>
+      <div class="manifesto-grid">
+        <figure class="about-portrait">
+          <img src="assets/works/wu-ziming-portrait.png" alt="吴梓鸣个人肖像" width="1086" height="1448" loading="lazy" decoding="async" />
+          <figcaption><strong>吴梓鸣</strong><span>WU ZIMING</span><p>枣庄学院 · 23级<br>数字媒体艺术 · 影视方向</p></figcaption>
+        </figure>
+        <h2 class="reveal-text">学习观察，<br>尝试表达，<br>慢慢找到<strong>自己的创作方式。</strong></h2>
+        <div class="bio">
+          <p>创作偏向影视与动态影像，也喜欢手绘、三维建模和交互设计。平时会留意身边的人和细小的情绪，尝试用不同的方式记录下来。目前正在学习 AIGC 相关工具，希望以后有机会从事用户策略运营，进一步了解人们如何使用这些工具。</p>
+          <div class="skill-list">
+            <span>影视创作</span><span>平面设计</span><span>音频制作</span><span>三维建模</span><span>网页交互</span><span>AI 生产</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="section-heading">
+        <div class="section-index">SELECTED WORK / CHAPTER 01</div>
+        <h2>影像叙事 <sup>(03)</sup></h2>
+      </div>
+      <div class="chapter-intro"><p>用镜头记录人与现实，以动态影像探索新的表达。</p><nav aria-label="作品章节"><a href="#work">01 影像叙事</a><a href="#design">02 三维与视觉设计 ↘</a><a href="#drawing">03 手绘与观察 ↘</a></nav></div>
+
+      <div class="projects">
+        <article class="project project-wide" data-color="#ff5c35">
+          <a href="https://youtu.be/I3puXTD3BDI" class="project-visual poster-stage poster-wide" aria-label="在 YouTube 观看微电影《相遇》" target="_blank" rel="noopener noreferrer">
+            <img src="assets/works/xiangyu-triptych.png" alt="微电影《相遇》三张系列海报联排：孤独、线索、相遇" />
+            <span class="project-no">01</span><span class="view">WATCH FILM ↗</span>
+          </a>
+          <div class="project-info"><h3>相遇</h3><p>原创治愈微电影 / 编剧·拍摄·剪辑</p></div>
+          <div class="project-description" id="project-meeting"><span>01 / FICTION</span><div><p>以温柔纪实的镜头语言，讲述人与人相遇时那些不易被察觉的细腻情愫。从剧本到最终剪辑，独立完成完整创作流程。</p><a class="watch-link" href="https://youtu.be/I3puXTD3BDI" target="_blank" rel="noopener noreferrer">在 YouTube 观看完整影片 ↗</a></div></div>
+        </article>
+
+        <article class="project project-wide" data-color="#a7ff4f">
+          <a href="#project-liuwei" class="project-visual poster-stage poster-portrait" aria-label="查看作品《返乡助农人-刘威》">
+            <img src="assets/works/liuwei-poster.png" alt="乡村纪实短片《返乡助农人-刘威》一树榴红主题海报" />
+            <span class="project-no">02</span><span class="view">READ STORY ↓</span>
+          </a>
+          <div class="project-info"><h3>返乡助农人 - 刘威</h3><p>乡村纪实人物采访 / 编剧·拍摄·剪辑</p></div>
+          <div class="project-description" id="project-liuwei"><span>02 / DOCUMENTARY</span><p>以峄城返乡创业者刘威为拍摄对象，通过人物专访与田间实景，记录他依托石榴盆景产业助农共富的经历，还原新时代青年返乡助农的真实面貌。</p></div>
+        </article>
+
+        <article class="project project-wide" data-color="#c79054">
+          <a href="https://youtu.be/gReZubTx-w0" target="_blank" rel="noopener noreferrer" class="project-visual poster-stage poster-portrait poster-guanwu" aria-label="在 YouTube 观看作品《观物悟理，轮启新程》">
+            <img src="assets/works/guanwu-wuli-poster.png" alt="AIGC 概念视觉海报《观物悟理，轮启新程》：古代水车与现代高铁交汇" />
+            <span class="project-no">03</span><span class="view">WATCH FILM ↗</span>
+          </a>
+          <div class="project-info"><h3>观物悟理，轮启新程</h3><p>AIGC 影像 / 配套海报展示</p></div>
+          <div class="project-description" id="project-guanwu"><span>03 / AIGC VISUAL</span><div><p>从一轮之始，见文明之进。以“轮”为视觉线索，将传统水车、山水聚落与现代轨道交通置于同一画面，尝试讨论技术演进中始终延续的创造力与前行感。</p><a class="watch-link" href="https://youtu.be/gReZubTx-w0" target="_blank" rel="noopener noreferrer">在 YouTube 观看完整影片 ↗</a> <a class="watch-link" href="https://b16sw6i3smb.feishu.cn/docx/JikRdq3XOoHwEQxNJXLcpumPnng?from=from_copylink" target="_blank" rel="noopener noreferrer">查看分镜文档 · 飞书 ↗</a></div></div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="chapter-transition" aria-label="从影像到造型">
+      <div class="transition-top"><span>AN INTERLUDE / 创作的另一面</span><span>01 → 02</span></div>
+      <div class="transition-ring" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="transition-title" aria-hidden="true">MOTION<span>↓ FORM</span></div>
+      <div class="transition-bottom"><p>从镜头记录现实，<br>到用三维重塑想象。</p><a href="#design">进入三维与视觉设计 ↓</a></div>
+    </section>
+
+    <section class="design-work section-pad" id="design">
+      <div class="section-heading"><div class="section-index">SELECTED WORK / CHAPTER 02</div><h2>三维与视觉设计 <sup>(03)</sup></h2></div>
+      <div class="chapter-intro"><p>三维造型 · 视觉表达 · H5 交互，让想象拥有形状，也回应每一次探索。</p><a href="#work">返回影像叙事 ↑</a></div>
+      <div class="projects">
+        <article class="project project-wide project-model" data-color="#b18a63">
+          <a href="#project-adventurer" class="project-visual model-stage" aria-label="查看 Maya 角色建模作品《小小冒险家》">
+            <img src="assets/works/little-adventurer-maya.png" alt="Maya 角色建模作品《小小冒险家》设定板，包含正面、侧面、背面与局部细节" />
+            <span class="project-no">04</span><span class="view">CHARACTER SHEET ↓</span>
+          </a>
+          <div class="project-info"><h3>小小冒险家 <em>/ THE LITTLE ADVENTURER</em></h3><p>Maya 角色建模 / 角色设定板</p></div>
+          <div class="project-description project-model-description" id="project-adventurer"><span>04 / 3D CHARACTER</span><div><p>一个背着工具、向未知出发的小小冒险家。以角色三视图为主体，配合面部、帽饰、锤具、服装与靴子的局部细节，呈现从整体轮廓到材质语言的一致性。</p><div class="model-meta"><span>MAYA</span><span>CHARACTER DESIGN</span><span>3D MODEL</span></div></div></div>
+        </article>
+        <article class="project project-wide project-h5">
+          <a class="project-visual model-stage" href="#project-fantasy" aria-label="查看奇幻故事漫游 H5 项目介绍与演示">
+            <img src="assets/works/fantasy-h5-poster.png" alt="奇幻故事漫游横版宣传海报：森林入口、趣味问答与巨龙对话" loading="lazy" width="1672" height="941" />
+            <span class="view">EXPLORE THE STORY ↓</span>
+          </a>
+          <div class="project-info"><h3>奇幻故事漫游 <em>/ FANTASY STORY JOURNEY</em></h3><p>互动式 H5 / 故事探索与界面交互</p></div>
+          <div class="project-description" id="project-fantasy"><span>05 / INTERACTIVE H5</span><div>
+            <p>跟随小精灵进入奇幻森林，在阅读、选择与反馈之间推进旅程。作品将场景探索、趣味问答、历史时间线与巨龙对话串联成移动端故事体验，以奶油色底、森林绿线条和紫色点缀构建轻盈的童话氛围，让观看者成为主动探索故事的参与者。</p>
+            <div class="model-meta"><span>H5 交互</span><span>故事探索</span><span>答题反馈</span><span>角色对话</span></div>
+            <p class="poster-note">海报为基于作品录屏重新设计的宣传视觉，实际界面与交互以演示视频为准。</p>
+            <details class="h5-demo"><summary>观看交互演示 · 约 2 分 22 秒</summary><video controls playsinline preload="none" aria-label="奇幻故事漫游 H5 操作录屏"><source src="assets/works/fantasy-h5-demo.mp4" type="video/mp4" />浏览器无法播放时，可<a href="assets/works/fantasy-h5-demo.mp4">下载演示视频</a>。</video></details>
+          </div></div>
+        </article>
+        <article class="project project-wide project-editorial">
+          <a class="project-visual model-stage" href="output/editorial-preview/index.html" target="_blank" rel="noopener" aria-label="新标签页查看面塑之间画册排版">
+            <img src="assets/works/dough-editorial-cover.png" alt="面塑之间画册封面，米色纸感底与传统莲花纹样" loading="lazy" />
+            <span class="view">VIEW EDITORIAL ↗</span>
+          </a>
+          <div class="project-info"><h3>面塑之间 <em>/ THE ART OF DOUGH SCULPTURE</em></h3><p>非遗主题画册 / 版式设计与视觉编排</p></div>
+          <div class="project-description"><span>06 / EDITORIAL DESIGN</span><div><p>以枣庄非遗面塑为主题，从乡土传承、人物造型与民间色彩三个角度组织图文。米色纸张质感与棕色构成统一的视觉线索，通过标题层级、图片组合和留白，建立从封面到内页的阅读节奏。</p><div class="model-meta"><span>画册设计</span><span>图文编排</span><span>非遗主题</span></div><p class="poster-note">展示为在原作基础上整理的版式预览，包含封面、目录与三组示范内页。</p><a class="watch-link" href="output/editorial-preview/index.html" target="_blank" rel="noopener">查看完整画册排版 ↗</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="drawing-work section-pad" id="drawing" aria-labelledby="drawing-heading">
+      <div class="drawing-preface"><span>BACK TO THE HAND / 回到笔触</span><p>把目光停留在<br>人的感受，与生命的处境。</p></div>
+      <div class="section-heading"><div class="section-index">SELECTED WORK / CHAPTER 03</div><h2 id="drawing-heading">手绘与观察 <sup>(03)</sup></h2></div>
+      <div class="chapter-intro"><p>评价、日常与环境，三种关于“看见”的练习。</p><a href="#design">返回三维与视觉设计 ↑</a></div>
+
+      <article class="drawing-piece" aria-labelledby="drawing-score">
+        <figure><a class="drawing-image" href="assets/works/weight-of-perfection.jpg" target="_blank" rel="noopener" aria-label="新标签页查看满分的重量大图"><img src="assets/works/weight-of-perfection.jpg" alt="泡泡玛特角色 NYOTA 微笑着举起100分试卷，脚下花朵与纸船和周围暗色试卷形成对照" width="1086" height="1448" loading="lazy" decoding="async" /></a><figcaption>07 / HAND DRAWING <a href="assets/works/weight-of-perfection.jpg" target="_blank" rel="noopener">查看大图 ↗</a></figcaption></figure>
+        <div class="drawing-copy"><p class="drawing-category">泡泡玛特创意大赛作品</p><h3 id="drawing-score">满分的重量</h3><blockquote>我为满分高兴，也担心只有满分的自己才值得被肯定。</blockquote><p>作品以泡泡玛特角色 NYOTA 为创作主体，描绘她微笑着举起满分试卷的情景，呈现获得好成绩时的喜悦，以及被分数评价的压力。醒目的“100”既是努力得到肯定的象征，也承载着继续保持优秀的期待。紧握纸张的双手与略显拘谨的姿态，让快乐之中流露出不安。</p><details><summary>展开创作阐述</summary><p>我将 NYOTA 置于校园成绩评价的情境中，以她举起试卷的动作承载孩子渴望被肯定的心情。画面以明亮柔和的 NYOTA、花朵和纸船，与暗色背景中隐约浮现的试卷、批改痕迹形成对比。脚下的花园象征童心与成长的可能，周围收拢的暗色线条则暗示外界评价带来的束缚。我希望通过这种并存的情绪，引发对单一分数评价的思考：在关注成绩的同时，也看见孩子的感受、努力与独特价值。</p></details><div class="drawing-tags">童心 / 评价 / 成长</div></div>
+      </article>
+
+      <article class="drawing-piece drawing-reverse" aria-labelledby="drawing-studio">
+        <figure><a class="drawing-image" href="assets/works/studio-self-portrait.jpg" target="_blank" rel="noopener" aria-label="新标签页查看画室里的人大图"><img src="assets/works/studio-self-portrait.jpg" alt="穿蓝白校服、红色球鞋的同学戴着墨镜，坐在画架前回头，画室内散落着绘画工具" width="1269" height="2200" loading="lazy" decoding="async" /></a><figcaption>08 / PORTRAIT <a href="assets/works/studio-self-portrait.jpg" target="_blank" rel="noopener">查看大图 ↗</a></figcaption></figure>
+        <div class="drawing-copy"><p class="drawing-category">人物绘画 / 同学肖像</p><h3 id="drawing-studio">画室里的人</h3><p>这幅人物绘画以画室为背景，描绘了同学坐在画架前回头的一瞬间。墨镜、张嘴的表情与随性的坐姿，为安静的绘画场景增添了俏皮与活力，也呈现出学习日常中轻松、鲜活的一面。</p><details><summary>展开创作阐述</summary><p>画面以灰色调概括周围环境，通过蓝白校服、红色球鞋与面部暖色突出人物。墙上的习作、画架上的静物素描，以及散落的铅笔和橡皮，共同构成与绘画相伴的日常空间。我希望通过这幅作品，在记录同学外貌的同时，留下学习绘画时的生活状态与青春个性。</p></details><div class="drawing-tags">人物 / 日常 / 青春</div></div>
+      </article>
+
+      <article class="drawing-piece" aria-labelledby="drawing-ocean">
+        <figure><a class="drawing-image" href="assets/works/surrounded-blue.jpg" target="_blank" rel="noopener" aria-label="新标签页查看被包围的蓝大图"><img src="assets/works/surrounded-blue.jpg" alt="灰蓝色鳐鱼被旋涡中的彩色塑料包装、瓶罐与渔网围困" width="1557" height="2200" loading="lazy" decoding="async" /></a><figcaption>09 / OCEAN CONSERVATION <a href="assets/works/surrounded-blue.jpg" target="_blank" rel="noopener">查看大图 ↗</a></figcaption></figure>
+        <div class="drawing-copy"><p class="drawing-category">海洋保护主题大赛作品</p><h3 id="drawing-ocean">被包围的蓝</h3><p>作品以海洋中的鳐鱼为主体，将鲜艳的塑料包装、废弃瓶罐与渔网，与灰蓝色的海洋生物并置，形成强烈的色彩反差。原本没有生命的垃圾格外夺目，而真正鲜活的生命却显得黯淡、脆弱，以此呈现海洋污染下生命与废弃物之间的失衡。</p><details><summary>展开创作阐述</summary><p>画面中的垃圾沿旋涡状水流聚集，形成包围之势，象征海洋动物的生存空间不断受到挤压。我希望观众在被鲜艳色彩吸引后，进一步注意到被垃圾围困的生命，思考日常丢弃行为与海洋环境的联系，关注并保护海洋动物及其栖息地。</p></details><div class="drawing-tags">海洋 / 生命 / 环境</div></div>
+      </article>
+    </section>
+
+    <section class="process section-pad">
+      <div class="section-index">03 / PROCESS</div>
+      <div class="process-list">
+        <div><span>01</span><h3>OBSERVE</h3><p>留意身边的细节</p></div>
+        <div><span>02</span><h3>RECORD</h3><p>记录真实的人</p></div>
+        <div><span>03</span><h3>CREATE</h3><p>让工具服务表达</p></div>
+        <div><span>04</span><h3>LEARN</h3><p>在尝试中慢慢积累</p></div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-orb"></div>
+      <p>影像、AIGC，或者一个尚未成形的想法</p>
+      <h2>LET'S<br><span>KEEP IN TOUCH.</span></h2>
+      <a class="mail magnetic" href="mailto:hani008527@gmail.com">HANI008527@GMAIL.COM <b>↗</b></a>
+      <div class="contact-links"><span>社交平台 / 澈见</span><a href="output/pdf/wu-ziming-resume.pdf" target="_blank" rel="noopener">查看个人简历 ↗</a><a href="output/pdf/wu-ziming-resume.pdf" download>下载 PDF ↓</a></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 WU ZIMING</span>
+    <span>DESIGNED WITH CURIOSITY + CODE</span>
+    <a href="#home">BACK TO TOP ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
